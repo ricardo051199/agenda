@@ -1,0 +1,23 @@
+{
+  "name": "parcel-jest-base",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest --watch --env='jsdom'",
+    "test-once": "jest --env='jsdom' --coverage"
+  },
+  "author": "Israel Antezana R.",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.4",
+    "@parcel/babel-preset-env": "^2.0.0",
+    "babel-jest": "^27.1.0",
+    "jest": "^27.1.0",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
